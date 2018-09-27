@@ -7,12 +7,12 @@ module.exports = dir => {
 
     // a path to a promzard module.  In the event that this file is
     // not found, one will be provided for you.
-    var initFile = path.resolve(process.env.HOME, '.npm-init')
+    const initFile = path.resolve(process.env.HOME, '.npm-init')
 
     // extra stuff that gets put into the PromZard module's context.
     // In npm, this is the resolved config object.  Exposed as 'config'
     // Optional.
-    var configData = { some: 'extra stuff' }
+    const configData = { some: 'extra stuff' }
 
     // Any existing stuff from the package.json file is also exposed in the
     // PromZard module as the `package` object.  There will also be free
