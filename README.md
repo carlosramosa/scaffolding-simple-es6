@@ -5,9 +5,9 @@ This module create a simple module
 
 # Usage
 
-Just require the module like any other npm module 
-```js
-npm i -s scaffolding-simple-es6
+Clone the project from GitHub
+```zsh
+git clone https://github.com/carlosramosa/scaffolding-simple-es6.git
 ```
 Then you can edit your bashrc, zshrc, or the one you use and, for example, put them inside:
 ```bash
@@ -19,8 +19,8 @@ function newModule() {
 
 And finnaly you can call the function in your bash:
 
-```js
+```zsh
 newModule()
 ```
 Like you can see, the new module is created in path */Users/dangeroususer/workspace* 
-, that is, in the root where the module is installed
+, that is, in the root where the module has been downloaded
